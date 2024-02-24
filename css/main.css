@@ -5,10 +5,11 @@ body {
 }
 a {
     text-decoration: none;
-    color: dimgray;
+    color: gray;
 }
 a:hover {
     text-decoration: underline;
+    color: gainsboro;
 }
 h1 {
     font-size: 3em;
@@ -20,12 +21,35 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: gainsboro;
 }
-p {
+h3 {
+    font-size: 1.75em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: gainsboro;
+}
+h4 {
+    font-size: 1.75em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: gainsboro;
+}
+h5 {
     font-size: 1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: gainsboro;
+}
+p {
+    font-size: 1.2em;
     line-height: 1.4em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: lightgray;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+li {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: lightgray;
+}
+pre {
+    color: #00cfc2;
+}
+code {
+    font-size: 1.3em;
+    color: #80efe2;
 }
